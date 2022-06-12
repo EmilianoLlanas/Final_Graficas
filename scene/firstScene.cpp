@@ -1,7 +1,9 @@
 #include "firstScene.h"
 
 FirstScene::FirstScene(){
+    collider = new Collider();
 
+    character = Character(collider);
 }
 
 void FirstScene::drawAxis(){
@@ -28,17 +30,25 @@ void FirstScene::drawAxis(){
      glEnd();
 }
 
-void FirstScene::drawScene(){
+void FirstScene::loadColliders() {
+
+    //Cube
+    collider->addObject(0,0,0,.5);
+}
+
+void FirstScene::drawScene() {
     drawAxis();
+    collider->drawColliders();
 
     glPushMatrix();
-    glTranslated(10,0,0);
     cube.draw();
+
     glPopMatrix();
 }
 
 void FirstScene::initScene() {
     character.initView();
+    loadColliders();
 }
 
 void FirstScene::updateView(int key, int x, int y) {

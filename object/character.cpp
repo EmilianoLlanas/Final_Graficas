@@ -31,25 +31,38 @@ void Character::LookAt() {
 void Character::SpecialInput(int key, int x, int y) {
     switch(key){
         case GLUT_KEY_UP:
-             EYE_X += Direction[0];
-             EYE_Y += Direction[1];
-             EYE_Z += Direction[2];
-             CENTER_X = EYE_X + Direction[0];
-             CENTER_Y = EYE_Y + Direction[1];
-             CENTER_Z = EYE_Z + Direction[2];
+            if (!collider->hasCollition(EYE_X + Direction[0],
+                                        EYE_Y + Direction[1],
+                                        EYE_Z + Direction[2],
+                                        .3))
+               {
+                 EYE_X += Direction[0];
+                 EYE_Y += Direction[1];
+                 EYE_Z += Direction[2];
+                 CENTER_X = EYE_X + Direction[0];
+                 CENTER_Y = EYE_Y + Direction[1];
+                 CENTER_Z = EYE_Z + Direction[2];
+               }
+
              break;
         case GLUT_KEY_DOWN:
-             EYE_X -= Direction[0];
-             EYE_Y -= Direction[1];
-             EYE_Z -= Direction[2];
-             CENTER_X = EYE_X + Direction[0];
-             CENTER_Y = EYE_Y + Direction[1];
-             CENTER_Z = EYE_Z + Direction[2];
+            if(!collider->hasCollition(EYE_X - Direction[0],
+                                       EYE_Y - Direction[1],
+                                       EYE_Z - Direction[2],
+                                       .3))
+               {
+                 EYE_X -= Direction[0];
+                 EYE_Y -= Direction[1];
+                 EYE_Z -= Direction[2];
+                 CENTER_X = EYE_X + Direction[0];
+                 CENTER_Y = EYE_Y + Direction[1];
+                 CENTER_Z = EYE_Z + Direction[2];
+               }
              break;
         case GLUT_KEY_LEFT:
              Theta = 1.0f;
              LookAt();
-              break;
+             break;
         case GLUT_KEY_RIGHT:
              Theta = -1.0f;
              LookAt();
@@ -59,4 +72,8 @@ void Character::SpecialInput(int key, int x, int y) {
     glLoadIdentity();
     gluLookAt(EYE_X,EYE_Y,EYE_Z,CENTER_X,CENTER_Y,CENTER_Z,UP_X,UP_Y,UP_Z);
     glutPostRedisplay();
+}
+
+Character::Character(Collider *coll) {
+    collider = coll;
 }

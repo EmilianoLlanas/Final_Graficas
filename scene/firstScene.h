@@ -2,6 +2,8 @@
 #define FIRSTSCENE_H_INCLUDED
 
 #include <GL/glut.h>
+#include "../utilities/collider.h"
+
 #include "../object/cube.h"
 #include "../object/character.h"
 
@@ -14,10 +16,13 @@ private:
     float Z_MIN=-50;
     float Z_MAX=50;
 
+    Collider *collider;
+
     Cube cube;
     Character character;
 
     void drawAxis();
+    void loadColliders();
 
 public:
     void drawScene();
