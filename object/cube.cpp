@@ -5,8 +5,8 @@ Cube::Cube()
 
 }
 
-void Cube::draw() {
-    glColor3f(0.0,0.0,1.0);
+void Cube::draw(float r, float g, float b) {
+    glColor3f(r,g,b);
     glTranslatef(0.0,0.0,movimiento);
     glutSolidCube(1);
 }

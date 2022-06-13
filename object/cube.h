@@ -8,7 +8,7 @@ private:
     float movimiento=0.0;
     float velocidad=0.3;
 public:
-    void draw();
+    void draw(float r, float g, float b);
     void update();
     Cube();
 };

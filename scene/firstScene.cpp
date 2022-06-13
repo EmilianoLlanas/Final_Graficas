@@ -95,46 +95,46 @@ void FirstScene::drawScene() {
     //collider->drawColliders();
 
     glPushMatrix();
-
+    glColor3f(1.0,0.0,1.0);
     glTranslatef(0.0,0.0,-10.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glTranslatef(0.0,0.0,2.0);
-    cube2.draw();
+    cube2.draw(1.0,0.0,0.0);
 
     glPopMatrix();
 
     glPushMatrix();
     glTranslatef(0.0,3.0,0.0);
-    cube.draw();
+    cube.draw(0.0,0.0,1.0);
     glPopMatrix();
 
     glEnable(GL_LIGHTING);
