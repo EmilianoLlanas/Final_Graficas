@@ -19,7 +19,7 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1655099720 c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.h
+1655100498 c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.h
 	<GL/glut.h>
 	"../utilities/collider.h"
 	"../object/cube.h"
@@ -39,7 +39,7 @@
 1655096928 source:c:\users\luis angel\documents\graficas\proyectofinal\object\cube.cpp
 	"cube.h"
 
-1655100240 source:c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.cpp
+1655100678 source:c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.cpp
 	"firstScene.h"
 	<iostream>
 
@@ -125,7 +125,7 @@
 	<iostream>
 	<GL/glut.h>
 
-1655100045 source:c:\users\luis angel\documents\graficas\proyectofinal\object\lights.cpp
+1655100305 source:c:\users\luis angel\documents\graficas\proyectofinal\object\lights.cpp
 	"lights.h"
 
 1655099720 source:c:\users\luis angel\documents\graficas\proyectofinal\object\ball.cpp
