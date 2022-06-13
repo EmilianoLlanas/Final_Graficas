@@ -14,7 +14,6 @@ private:
 
     Lights light;
 
-    //Variables para establecer los valores de gluPerspective
     float FOVY=60.0;
     float ZNEAR=0.01;
     float ZFAR=100.0;

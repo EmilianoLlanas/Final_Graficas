@@ -2,7 +2,6 @@
 
 FirstScene::FirstScene(){
     collider = new Collider();
-
     character = Character(collider);
 }
 
@@ -38,8 +37,7 @@ void FirstScene::loadColliders() {
 
 void FirstScene::Lighting()
 {
-
-    light.Spot(); //luz posicional
+    light.Spot();
 }
 
 void FirstScene::drawMesh(char axis, int min1, int max1, int min2, int max2)
@@ -51,10 +49,10 @@ void FirstScene::drawMesh(char axis, int min1, int max1, int min2, int max2)
         for(i=min1; i<max1; i++)
             for(j=min2; j<max2; j++){
                     glBegin(GL_QUADS);
-                    glVertex3i(i, -10,  j);
-                    glVertex3i(i, -10,  j+1);
-                    glVertex3i(i+1, -10,  j+1);
-                    glVertex3i(i+1, -10,  j);
+                    glVertex3i(i, -1,  j);
+                    glVertex3i(i, -1,  j+1);
+                    glVertex3i(i+1, -1,  j+1);
+                    glVertex3i(i+1, -1,  j);
                     glEnd();
             }
         break;
@@ -68,11 +66,8 @@ void FirstScene::drawMesh(char axis, int min1, int max1, int min2, int max2)
 
 void FirstScene::drawMesh()
 {
-    drawMesh('x',-50,50,-50,50);
-
+    drawMesh('x',-20,20,-20,20);
 }
-
-
 
 void FirstScene::drawScene() {
     drawAxis();
@@ -82,21 +77,12 @@ void FirstScene::drawScene() {
     glEnable(GL_LIGHT0);
 
     drawMesh();
-
-    collider->drawColliders();
-
     glPushMatrix();
 
     glTranslatef(0.0, -5.0, 5.0);
     cube.draw();
 
-    //glutSolidSphere(1, 30, 30);
-    //glPopMatrix();
-
-
     glPopMatrix();
-
-
 
     glDisable(GL_LIGHT0);
     glDisable(GL_LIGHTING);
