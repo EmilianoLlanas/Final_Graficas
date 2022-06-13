@@ -39,6 +39,8 @@ private:
     Collider *collider;
 
     Cube cube;
+
+    Cube cube2;
     Character character;
     Ball ball;
 

@@ -33,7 +33,27 @@ void FirstScene::drawAxis(){
 void FirstScene::loadColliders() {
 
     //Cube
-    collider->addObject(0,0,0,.5);
+    collider->addObject(0,0,-10,0.7);
+
+    collider->addObject(0,0,-8,0.7);
+
+    collider->addObject(0,0,-6,0.7);
+
+    collider->addObject(0,0,-4,0.7);
+
+    collider->addObject(0,0,-2,0.7);
+
+    collider->addObject(0,0,0,0.7);
+
+    collider->addObject(0,0,2,0.7);
+
+    collider->addObject(0,0,4,0.7);
+
+    collider->addObject(0,0,6,0.7);
+
+    collider->addObject(0,0,8,0.7);
+
+    collider->addObject(0,0,10,0.7);
 }
 
 void FirstScene::Lighting()
@@ -75,8 +95,46 @@ void FirstScene::drawScene() {
     //collider->drawColliders();
 
     glPushMatrix();
-    glTranslatef(0.0,1.0,0.0);
-    cube.draw();
+
+    glTranslatef(0.0,0.0,-10.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glTranslatef(0.0,0.0,2.0);
+    cube2.draw();
+
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,3.0,0.0);
+    ball.draw();
     glPopMatrix();
 
     glEnable(GL_LIGHTING);
