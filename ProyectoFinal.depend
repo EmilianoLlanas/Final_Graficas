@@ -1,10 +1,8 @@
 # depslib dependency file v1.0
-1655045465 source:c:\users\luis angel\documents\graficas\proyectofinal\main.cpp
+1655089690 source:c:\users\luis angel\documents\graficas\proyectofinal\main.cpp
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<stdlib.h>
-	<math.h>
-	<stdio.h>
 	"scene/firstScene.h"
 
 1426374928 c:\program files\codeblocks\mingw\include\gl\glut.h
@@ -21,28 +19,50 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1655046729 c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.h
+1655091551 c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.h
 	<GL/glut.h>
+	"../utilities/collider.h"
 	"../object/cube.h"
 	"../object/character.h"
+	"../object/lights.h"
 
-1655045347 c:\users\luis angel\documents\graficas\proyectofinal\object\cube.h
+1655055507 c:\users\luis angel\documents\graficas\proyectofinal\object\cube.h
 	<GL/glut.h>
 
-1655046498 source:c:\users\luis angel\documents\graficas\proyectofinal\object\character.cpp
+1655089690 source:c:\users\luis angel\documents\graficas\proyectofinal\object\character.cpp
 	"character.h"
 
-1655044407 source:c:\users\luis angel\documents\graficas\proyectofinal\utilities\collider.cpp
+1655089690 source:c:\users\luis angel\documents\graficas\proyectofinal\utilities\collider.cpp
+	"collider.h"
 
-1655045019 source:c:\users\luis angel\documents\graficas\proyectofinal\object\cube.cpp
+1655055510 source:c:\users\luis angel\documents\graficas\proyectofinal\object\cube.cpp
 	"cube.h"
 
-1655046716 source:c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.cpp
+1655095230 source:c:\users\luis angel\documents\graficas\proyectofinal\scene\firstscene.cpp
 	"firstScene.h"
 
-1655046745 c:\users\luis angel\documents\graficas\proyectofinal\object\character.h
+1655089690 c:\users\luis angel\documents\graficas\proyectofinal\object\character.h
 	<GL/glut.h>
 	<math.h>
+	"../utilities/collider.h"
+
+1655086670 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"scene/firstScene.h"
+
+1655084013 c:\users\saman\documents\last_one\graficas\final\final_graficas\scene\firstscene.h
+	<GL/glut.h>
+	"../utilities/collider.h"
+	"../object/cube.h"
+	"../object/character.h"
+	"../object/lights.h"
+
+1655081286 c:\users\saman\documents\last_one\graficas\final\final_graficas\utilities\collider.h
+	<GL/glut.h>
+	<math.h>
+
 
 1655089271 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\main.cpp
 	<GLUT/glut.h>
@@ -92,4 +112,5 @@
 1655089271 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.cpp
 	"ball.h"
 	<iostream>
+
 
