@@ -7,10 +7,10 @@
 	<stdio.h>
 	"scene/firstScene.h"
 
-1651160424 c:\program files\codeblocks\mingw\include\gl\glut.h
+1645718850 c:\program files\codeblocks\mingw\include\gl\glut.h
 	"freeglut_std.h"
 
-1651160423 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+1645718850 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
 	<windows.h>
 	<EGL/egl.h>
 	<GLES/gl.h>
@@ -43,4 +43,48 @@
 1655046745 c:\users\luis angel\documents\graficas\proyectofinal\object\character.h
 	<GL/glut.h>
 	<math.h>
+
+1655086670 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"scene/firstScene.h"
+
+1655084013 c:\users\saman\documents\last_one\graficas\final\final_graficas\scene\firstscene.h
+	<GL/glut.h>
+	"../utilities/collider.h"
+	"../object/cube.h"
+	"../object/character.h"
+	"../object/lights.h"
+
+1655081286 c:\users\saman\documents\last_one\graficas\final\final_graficas\utilities\collider.h
+	<GL/glut.h>
+	<math.h>
+
+1655057112 c:\users\saman\documents\last_one\graficas\final\final_graficas\object\cube.h
+	<GL/glut.h>
+
+1655081286 c:\users\saman\documents\last_one\graficas\final\final_graficas\object\character.h
+	<GL/glut.h>
+	<math.h>
+	"../utilities/collider.h"
+
+1655086531 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\object\character.cpp
+	"character.h"
+
+1655057112 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\object\cube.cpp
+	"cube.h"
+
+1655085599 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\scene\firstscene.cpp
+	"firstScene.h"
+
+1655081286 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\utilities\collider.cpp
+	"collider.h"
+
+1655085678 source:c:\users\saman\documents\last_one\graficas\final\final_graficas\object\lights.cpp
+	"lights.h"
+
+1655081286 c:\users\saman\documents\last_one\graficas\final\final_graficas\object\lights.h
+	<iostream>
+	<GL/glut.h>
 

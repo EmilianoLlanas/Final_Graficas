@@ -6,7 +6,6 @@
 #endif
 
 #include <stdlib.h>
-#include <stdio.h>
 
 #include "scene/firstScene.h"
 
@@ -31,7 +30,9 @@ void init()
     scene.initScene();
     glClearColor(0,0,0,0);
     glPolygonMode(GL_FRONT_AND_BACK,GL_FILL);
-    glShadeModel(GL_FLAT);
+    glShadeModel(GL_SMOOTH);
+
+    //glEnable(GL_DEPTH_TEST);
 }
 
 void SpecialInput(int key, int x, int y)
