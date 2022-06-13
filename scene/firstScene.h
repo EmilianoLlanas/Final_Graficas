@@ -1,7 +1,9 @@
 #ifndef FIRSTSCENE_H_INCLUDED
 #define FIRSTSCENE_H_INCLUDED
 
+
 #include <GL/glut.h>
+#include "../object/bar.h"
 #include "../object/cube.h"
 #include "../object/ball.h"
 #include "../object/character.h"
@@ -18,7 +20,7 @@ private:
     Cube cube;
     Character character;
     Ball ball;
-
+    Bar bar;
     void drawAxis();
 
 public:

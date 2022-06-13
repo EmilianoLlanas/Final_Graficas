@@ -51,8 +51,9 @@
 	<stdio.h>
 	"scene/firstScene.h"
 
-1655089271 c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.h
+1655095235 c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.h
 	<GL/glut.h>
+	"../object/bar.h"
 	"../object/cube.h"
 	"../object/ball.h"
 	"../object/character.h"
@@ -71,10 +72,10 @@
 1655089270 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\character.cpp
 	"character.h"
 
-1655089271 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\cube.cpp
+1655091536 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\cube.cpp
 	"cube.h"
 
-1655089722 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.cpp
+1655094749 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.cpp
 	"firstScene.h"
 	<iostream>
 
@@ -89,7 +90,24 @@
 1655089271 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.h
 	<GL/glut.h>
 
-1655089271 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.cpp
+1655091542 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.cpp
 	"ball.h"
 	<iostream>
+
+1618332885 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\utilities\rgbimage.cpp
+	"RgbImage.h"
+	<windows.h>
+	"GL/gl.h"
+
+1604966629 c:\users\emiliano (trabajo)\documents\github\final_graficas\utilities\rgbimage.h
+	<stdio.h>
+	<assert.h>
+
+1655096162 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\bar.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"../utilities/RgbImage.h"
+
+1655095802 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\bar.cpp
+	"bar.h"
 

@@ -41,6 +41,10 @@ void FirstScene::drawScene(){
     glTranslatef(0.0,3.0,0.0);
     cube.draw();
     glPopMatrix();
+
+    glPushMatrix();
+    bar.draw();
+    glPopMatrix();
 }
 
 void FirstScene::updateScene() {

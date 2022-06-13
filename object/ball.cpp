@@ -7,7 +7,7 @@ Ball::Ball()
 }
 
 void Ball::draw() {
-    glColor3f(0.0,1.0,0.0);
+    glColor3f(1.0,1.0,1.0);
     glTranslatef(0.0,movimiento,movimientoh);
     glutSolidSphere(1,50,50);
 }
