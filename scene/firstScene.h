@@ -3,6 +3,7 @@
 
 #include <GL/glut.h>
 #include "../object/cube.h"
+#include "../object/ball.h"
 #include "../object/character.h"
 
 class FirstScene {
@@ -16,6 +17,7 @@ private:
 
     Cube cube;
     Character character;
+    Ball ball;
 
     void drawAxis();
 

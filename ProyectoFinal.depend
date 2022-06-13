@@ -7,10 +7,10 @@
 	<stdio.h>
 	"scene/firstScene.h"
 
-1651160424 c:\program files\codeblocks\mingw\include\gl\glut.h
+1426374928 c:\program files\codeblocks\mingw\include\gl\glut.h
 	"freeglut_std.h"
 
-1651160423 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+1426374928 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
 	<windows.h>
 	<EGL/egl.h>
 	<GLES/gl.h>
@@ -43,4 +43,55 @@
 1655046745 c:\users\luis angel\documents\graficas\proyectofinal\object\character.h
 	<GL/glut.h>
 	<math.h>
+
+1655087955 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"scene/firstScene.h"
+
+1655085245 c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.h
+	<GL/glut.h>
+	"../utilities/collider.h"
+	"../object/cube.h"
+	"../object/ball.h"
+	"../object/character.h"
+
+1655071737 c:\users\emiliano (trabajo)\documents\github\final_graficas\utilities\collider.h
+	<GL/glut.h>
+	<math.h>
+
+1655088983 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\cube.h
+	<GL/glut.h>
+
+1655071737 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\character.h
+	<GL/glut.h>
+	<math.h>
+	"../utilities/collider.h"
+
+1655071737 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\character.cpp
+	"character.h"
+
+1655088927 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\cube.cpp
+	"cube.h"
+
+1655088113 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\scene\firstscene.cpp
+	"firstScene.h"
+	<iostream>
+
+1655071737 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\utilities\collider.cpp
+	"collider.h"
+
+1655076880 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ventana.h
+	<GL/glut.h>
+
+1655076930 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ventana.cpp
+	"ventana.h"
+
+1655088780 c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.h
+	<GL/glut.h>
+
+1655088819 source:c:\users\emiliano (trabajo)\documents\github\final_graficas\object\ball.cpp
+	"ball.h"
+	<iostream>
 

@@ -42,10 +42,19 @@ void SpecialInput(int key, int x, int y)
 //--------------------------------------------------------------------------
 void display()
 {
+
     glClear(GL_COLOR_BUFFER_BIT);
     scene.drawScene();
     glFlush();
     glutSwapBuffers();
+}
+
+void idle(void)
+{
+
+    scene.updateScene();
+    Sleep(30);
+    glutPostRedisplay();
 }
 
 int main(int argc, char **argv)
@@ -57,7 +66,7 @@ int main(int argc, char **argv)
     glutCreateWindow("Proyecto Final");
     init();
     glutDisplayFunc(display);
-    glutIdleFunc(display);
+    glutIdleFunc(idle);
     glutSpecialFunc(SpecialInput);
     glutMainLoop();
     return 0;

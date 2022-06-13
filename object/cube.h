@@ -4,9 +4,12 @@
 #include <GL/glut.h>
 
 class Cube {
+private:
+    float movimiento=0.0;
+    float velocidad=0.3;
 public:
     void draw();
-
+    void update();
     Cube();
 };
 
