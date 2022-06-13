@@ -16,7 +16,7 @@ void Lights::setType()
     switch(type){
     case 0:
         //Dispersion de la luz a 180° (default)
-        setVector(sun_light_position, 0.0, 10.0, 0.0, 1.0);
+        setVector(sun_light_position, 0.0, 15.0, 0.0, 1.0);
         setVector(sun_light_ambient, 0.0, 0.0, 0.0, 1.0);
         setVector(sun_light_diffuse, 1.0, 1.0, 1.0, 1.0);
         setVector(sun_light_specular, 1.0, 1.0, 1.0, 1.0);

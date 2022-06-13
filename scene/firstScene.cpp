@@ -73,9 +73,10 @@ void FirstScene::drawMesh()
 void FirstScene::drawScene() {
     drawAxis();
     //collider->drawColliders();
+
     glPushMatrix();
-    glTranslatef(0.0,3.0,0.0);
-    ball.draw();
+    glTranslatef(0.0,1.0,0.0);
+    cube.draw();
     glPopMatrix();
 
     glEnable(GL_LIGHTING);
@@ -83,10 +84,10 @@ void FirstScene::drawScene() {
     glEnable(GL_LIGHT0);
 
     drawMesh();
-    glPushMatrix();
-    glTranslatef(0.0,3.0,0.0);
-    cube.draw();
 
+    glPushMatrix();
+    glTranslatef(0.0,1.0,0.0);
+    ball.draw();
     glPopMatrix();
 
     glDisable(GL_LIGHT0);

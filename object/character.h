@@ -7,7 +7,7 @@
 
 class Character{
 private:
-    float EYE_X=-3.0;
+    float EYE_X=-15.0;
     float EYE_Y=0.0;
     float EYE_Z=0.0;
     float CENTER_X=10;
