@@ -31,11 +31,6 @@ void FirstScene::drawAxis(){
 
 void FirstScene::drawScene(){
     drawAxis();
-<<<<<<< Updated upstream
-
-    glPushMatrix();
-    glTranslated(10,0,0);
-=======
     //collider->drawColliders();
     glPushMatrix();
     glTranslatef(0.0,3.0,0.0);
@@ -44,7 +39,6 @@ void FirstScene::drawScene(){
 
     glPushMatrix();
     glTranslatef(0.0,3.0,0.0);
->>>>>>> Stashed changes
     cube.draw();
     glPopMatrix();
 }
